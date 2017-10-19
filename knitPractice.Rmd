@@ -1,0 +1,32 @@
+---
+title: "Assignment9"
+author: "Deanna Schneider"
+date: "October 2, 2017"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1a: Read the modified usnews.csv into R. Check the first few values of each vector.
+
+```
+usnews <- read.csv("C:/Users/Deanna/Documents/grad school/DS710/ds710fall2017assignment9-Brisbin/usnews_clean")
+
+head(usnews)
+```
+usnews <- read.csv("C:/Users/Deanna/Documents/grad school/DS710/ds710fall2017assignment9-Brisbin/usnews_clean")
+
+head(usnews)
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
